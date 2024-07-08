@@ -1,0 +1,76 @@
+
+
+1)api for fetching token
+
+    url: http://127.0.0.1:8000/api/token/
+
+    method:POST
+
+    body:{username,password}
+
+    authentication:Nill
+
+
+
+
+2)api for listing all todos
+
+    url: http://127.0.0.1:8000/api/todos/
+
+    method:GET
+
+    body:Nill
+
+    authentication:Token
+
+3)api for adding  todos
+
+    url: http://127.0.0.1:8000/api/todos/
+
+    method:POST
+
+    body:{ 
+        title,
+        description,
+    }
+
+    authentication:Token
+
+
+4)api for retrieving todos details
+
+    url: http://127.0.0.1:8000/api/todos/{id}/
+
+    method:GET
+
+    body:Nill
+
+    authentication:Token
+
+
+5)api for updating  todos detail
+
+    url: http://127.0.0.1:8000/api/todos/{id}/
+
+    method:PUT
+
+     body:{ name,
+            email,
+            phone,
+            vehicle_number,
+            running_km,}
+
+
+    authentication:Token
+
+
+6)api for deleting todo
+
+    url: http://127.0.0.1:8000/api/todos/{id}/
+
+    method:DELETE
+
+    body:Nill
+
+    authentication:Token
+
